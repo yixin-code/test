@@ -1,6 +1,6 @@
 TARGET=a.out
 
-SRC=./2.cpp
+SRC=./3.cpp
 
 # 将.c替换成.o
 # SRC=$(patsubst %.cpp, %.o, $(TEMP))
@@ -9,6 +9,7 @@ G = g++
 
 # FLAG=-Wall -std=c++11 -g -fsanitize=address -Werror -O0
 FLAG=-Wall -std=c++11 -g
+# FLAG=-Wall -std=c++20 -g
 
 # 动态库
 # -fPIC -shared
