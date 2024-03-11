@@ -78,5 +78,3 @@ int main(int argc, char *const *argv)
     printf("再见了!\n");
     return 0;
 }
-
-
