@@ -11,10 +11,8 @@ int main() {
     } else if (pid == 0) {
         std::cout << "son process, " << "pid: " << getpid() << ", ppid: " << getppid() << std::endl;
     } else if (pid > 0) {
-        while (true) {
-            sleep(1);
-            std::cout << "father process, " << "pid: " << getpid() << ", ppid: " << getppid() << std::endl;
-        }
+        std::cout << "father process, " << "pid: " << getpid() << ", ppid: " << getppid() << std::endl;
+        sleep(3);
     }
 
     return 0;
