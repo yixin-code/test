@@ -5,20 +5,23 @@ int main() {
     std::list<int> l {1, 2, 3, 4, 5};
     std::list<int>::iterator it = l.begin();
 
-    std::advance(it, 1);
-    std::cout << *it << std::endl; // 2
-    std::advance(it, 1);
-    std::cout << *it << std::endl; // 3
-    std::advance(it, 1);
-    std::cout << *it << std::endl; // 4
-    std::advance(it, 1);
-    std::cout << *it << std::endl; //5
-    std::advance(it, 1);
-    std::cout << *it << std::endl; // 5
-    std::advance(it, 1);
-    std::cout << *it << std::endl; // 1
-    std::advance(it, 1);
-    std::cout << *it << std::endl; // 2
+    it = l.erase(it);
+    std::cout << *it << std::endl;
+
+    // std::advance(it, 1);
+    // std::cout << *it << std::endl; // 2
+    // std::advance(it, 1);
+    // std::cout << *it << std::endl; // 3
+    // std::advance(it, 1);
+    // std::cout << *it << std::endl; // 4
+    // std::advance(it, 1);
+    // std::cout << *it << std::endl; //5
+    // std::advance(it, 1);
+    // std::cout << *it << std::endl; // 5
+    // std::advance(it, 1);
+    // std::cout << *it << std::endl; // 1
+    // std::advance(it, 1);
+    // std::cout << *it << std::endl; // 2
 
     // it = std::next(it);
     // std::cout << *it << std::endl;
