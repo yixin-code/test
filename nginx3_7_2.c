@@ -72,7 +72,7 @@ int main(int argc, char *const *argv)
     } 
     else
     {
-        //创建守护进程成功,执行守护进程中要干的活
+        //创建守护进程成功,执行守护进程中要干的
         for(;;)
         {        
             sleep(1); //休息1秒
