@@ -4,14 +4,15 @@
 
 void func_sigusr1(int sig) {
     while (true) {
-        std::cout << "------func sigusr1------" << std::endl;
+        signal(SIGUSR2, SIG_IGN);
+        std::cout << "######func sigusr1######" << std::endl;
         sleep(1);
     }
 }
 
 void func_sigusr2(int sig) {
     while (true) {
-        std::cout << "++++++func sigusr2++++++" << std::endl;
+        std::cout << "@@@@@@func sigusr2@@@@@@" << std::endl;
         sleep(1);
     }
 }
