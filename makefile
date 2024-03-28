@@ -7,7 +7,7 @@ SRC=./50.cpp
 
 G = g++
 
-FLAG=-Wall -std=c++11 -g
+FLAG=-Wall -std=c++11 -g -fsanitize=address
 # FLAG=-Wall -std=c++20 -g
 
 # 内存泄漏检查

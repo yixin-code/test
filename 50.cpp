@@ -9,5 +9,8 @@ int main() {
         std::cout << "equal\n";
     }
 
+    char *p = new char;
+    std::cout << p << '\n';
+
     return 0;
 }
