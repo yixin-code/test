@@ -1,6 +1,6 @@
 TARGET=a.out
 
-SRC=./51.cpp
+SRC=./53.cpp
 
 # 将.c替换成.o
 # SRC=$(patsubst %.cpp, %.o, $(TEMP))
@@ -8,6 +8,7 @@ SRC=./51.cpp
 G = g++
 
 FLAG=-Wall -std=c++11 -g -fsanitize=address
+# FLAG=-Wall -std=c++98 -g -fsanitize=address
 # FLAG=-Wall -std=c++20 -g
 
 # 内存泄漏检查
