@@ -1,6 +1,6 @@
 TARGET=a.out
 
-SRC=./59.cpp
+SRC=./60.cpp
 
 # 将.c替换成.o
 # SRC=$(patsubst %.cpp, %.o, $(TEMP))
