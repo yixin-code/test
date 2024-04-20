@@ -12,9 +12,18 @@
 //     va_end(ap);
 // }
 
+const char* func(const char *p) {
+    p++;
+
+    return p;
+}
+
 int main() {
-    double num = 1;
-    printf("%.2lf\n", num);
+    const char *p = "abc";
+    p = func(p);
+    std::cout << p << "\n";
+    // double num = 1;
+    // printf("%.2lf\n", num);
     // func(3, 11, 22, 33);
     // int num = 11;
     // printf("%%%d\n", num);
