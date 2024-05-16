@@ -3,7 +3,9 @@
 #include <fstream>
 
 int main(int argc, char *argv[]) {
-    std::fstream fio("65.txt", std::ios::in | std::ios::out);
+    // std::fstream fio("65.txt", std::ios::in | std::ios::out);
+    // std::fstream fio("65.txt", std::ios::out | std::ios::in);
+    std::ofstream fio("65.txt", std::ios::out | std::ios::in | std::ios::);
     if (!fio.is_open()) {
         perror("fio");
         exit(1);
