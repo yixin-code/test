@@ -5,7 +5,8 @@
 int main(int argc, char *argv[]) {
     // std::fstream fio("65.txt", std::ios::in | std::ios::out);
     // std::fstream fio("65.txt", std::ios::out | std::ios::in);
-    std::ofstream fio("65.txt", std::ios::out | std::ios::in | std::ios::);
+    std::ofstream fio("65.txt", std::ios::out | std::ios::in | std::ios::trunc);
+    // std::ofstream fout("65.txt", std::ios::w)
     if (!fio.is_open()) {
         perror("fio");
         exit(1);
