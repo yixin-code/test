@@ -1,7 +1,10 @@
 #include <cstdlib>
+#include <iostream>
+#include <pthread.h>
 
 int main() {
-    system("warpd");
+    // system("warpd");
+
 
     return 0;
 }
