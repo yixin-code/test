@@ -4,7 +4,7 @@
 // #include "66.cpp"
 
 int main(int argc, char *argv[]) {
-    func();
+    // func();
     // std::fstream fio("65.txt", std::ios::in | std::ios::out);
     // std::fstream fio("65.txt", std::ios::out | std::ios::in);
     // std::ifstream fin("65.txt");
