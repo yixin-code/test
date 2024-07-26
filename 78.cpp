@@ -2,11 +2,12 @@
 #include <dirent.h>
 
 int main(int argc, char *argv[]) {
-    char *p = nullptr;
-    // p = "asd";
-    p = (char*)"asd";
+    std::cout << "78 end\n";
+        // char *p = nullptr;
+        // // p = "asd";
+        // p = (char*)"asd";
 
-    std::cout << p << '\n';
+        // std::cout << p << '\n';
 //     if (true) {
 //         goto fly;
 //     }
