@@ -31,7 +31,7 @@ $(TARGET):$(SRC)
 	$(G) $(SRC) $(FLAG) -o $(TARGET)
 
 # %.o:%.c
-	# $(G) $< -c -o $@
+#	 $(G) $< -c -o $@
 
 # make clean
 # clean:
